@@ -4,3 +4,9 @@ function lowerCaseDrivers(list) {
     return name.toLowerCase();
   });
 }
+
+function nameToAttributes(list) {
+  return list.map(function (name) {
+    
+  });
+}
