@@ -7,6 +7,6 @@ function lowerCaseDrivers(list) {
 
 function nameToAttributes(list) {
   return list.map(function (name) {
-    return Object.assign({}, name, )
+    return Object.assign({}, name, {firstName: })
   });
 }
