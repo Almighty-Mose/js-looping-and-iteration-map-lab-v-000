@@ -11,3 +11,9 @@ function nameToAttributes(list) {
     return { firstName: splitName[0], lastName: splitName[1] };
   });
 }
+
+function attributesToPhrase(list) {
+  return list.map(function (driver) {
+    return "${"
+  })
+}
